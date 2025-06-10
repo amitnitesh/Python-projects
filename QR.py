@@ -1,4 +1,3 @@
-pip install qrcode
-from qrcode import qr
-
-
+import qrcode as qr
+img=qr.make("https://github.com/amitnitesh/Python-projects")
+img.save("Github.png")
